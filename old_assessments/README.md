@@ -6,27 +6,49 @@
 
 ```
 (1) assessment
-      Data_Preparation (age_length, Biology, frq, CPUE, Fisheries, length_comps, MFDGR, Tagging)
-      Model_runs
+      data_preparation (age_length, biology, frq, cpue, fisheries, length_comps, mfdgr, tagging)
+      model_runs (run001, run009, ..., run535)
       projections
-      RefCase
-      Setup (basefiles, condorfiles, doitall)
+      refcase
+      setup (basefiles, condorfiles, doitall)
 (2) write-up
-      Assessment_paper
-      Presentation
+      assessment_paper
+      presentation
       working (figs, functions, tables)
 ```
 
-Top        | Sub              | Contents
----------- | ---------------- | ------------------------------------------------------------------------
-assessment | Data_Preparation | age_length, Biology, frq, CPUE, Fisheries, length_comps, MFDGR, Tagging)
-"          | Model_runs       |
-"          | projections      |
-"          | RefCase          |
-"          | Setup            | basefiles, condorfiles, doitall
-write-up   | Assessment_paper |
-"          | Presentation     |
-"          | working          | figs, functions, tables
+Top dir        | Subdir           | Contents
+-------------- | ---------------- | ------------------------------------------------------------------------
+(1) assessment | data_preparation | age_length, biology, frq, cpue, fisheries, length_comps, mfdgr, tagging)
+"              | model_runs       | run001, run009, ..., run535
+"              | projections      |
+"              | refcase          |
+"              | setup            | basefiles, condorfiles, doitall
+(2) write-up   | assessment       |
+"              | presentation     |
+"              | working          | figs, functions, tables
+
+### ALB 2018 (Laura)
+
+```
+(1) assessment
+      data_preparation (biology, fisheries, cpue, length_comps, growth, mfdgr, regions, sql, tagging)
+      model_runs (diagnostic, grid, hessian, lprof, retro, sensitivities)
+      setup (build, condor, exe)
+(2) presentations
+(3) write-up
+      data-inputs
+      stock-assessment (figures, tables)
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | ----------------------------------------------------------------------------
+(1) assessment    | data_preparation | biology, fisheries, cpue, length_comps, growth, mfdgr, regions, sql, tagging
+"                 | model_runs       | diagnostic, grid, hessian, lprof, retro, sensitivities
+"                 | setup            | build, condor, exe
+(2) presentations |                  |
+(3) write-up      | assessment       | figures, tables
+"                 | data             |
 
 ## Method to Examine Old Directory Trees
 
