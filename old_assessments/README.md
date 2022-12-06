@@ -215,6 +215,23 @@ Top dir           | Subdir           | Contents
 "                 | fisheries        |
 "                 | inputs           |
 
+### SKJ 2022 (Claudio)
+
+```
+(1) assessment
+      data_preparation (basefiles, cpue, mixing, mfdgr, tagging)
+      model_runs (grid, hessian, impact, retro, rr)
+      presentations
+      report (figures)
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | ---------------------------------------
+(1) assessment    | data_preparation | basefiles, cpue, mixing, mfdgr, tagging
+"                 | model_runs       | grid, hessian, impact, retro, rr
+"                 | presentations    |
+"                 | report           | figures
+
 ## Method to Examine Old Directory Trees
 
 ### How to Save as File
