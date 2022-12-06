@@ -81,6 +81,25 @@ Top dir                       | Subdir             | Contents
 (9) stock_assessment_rep_2021 | figures            |
 "                             | tables             |
 
+### BET 2014 (Shelton)
+
+```
+(1) assessment
+      data_preparation (cpue, doitall, length_comps, mfdgr, movements, seapodym, tagging)
+      model_runs (run01, ..., run500, growthvar, post_sc, projections, stepwise)
+      refcase
+      setup (basefiles, condor, step)
+(2) write-up
+```
+
+Top dir        | Subdir             | Contents
+-------------- | ------------------ | ------------------------------------------------------------------
+(1) assessment | data_preparation   | cpue, doitall, length_comps, mfdgr, movements, seapodym, tagging
+"              | model_runs         | run01, ..., run500, growthvar, post_sc, projections, stepwise)
+"              | refcase            |
+"              | setup              | basefiles, condor, step
+(2) write-up   |                    |
+
 ## Method to Examine Old Directory Trees
 
 ### How to Save as File
