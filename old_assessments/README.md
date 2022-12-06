@@ -33,7 +33,7 @@ Top dir        | Subdir           | Contents
 ```
 (1) assessment
       data_preparation (biology, fisheries, cpue, length_comps, growth, mfdgr, regions, sql, tagging)
-      model_runs (diagnostic, grid, hessian, lprof, retro, sensitivities)
+      model_runs (diagnostic, grid, hessian, impact, kobe, lprof, retro, sensitivities)
       setup (build, condor, exe)
 (2) presentations
 (3) write-up
@@ -56,7 +56,7 @@ Top dir           | Subdir           | Contents
 4fin (kobe, retro)
 4john (s1m1d1r1g1, ..., s3m2d3r2g2, wcpo21/m1, wcpo21/m2)
 4nick (spo21_hessianfiles)
-backccj (s1m1d1r1g1, ..., s3m2d3r2g2, lprof, plots, projections, retro, web)
+backccj (s1m1d1r1g1, ..., s3m2d3r2g2, impact, lprof, plots, projections, retro, web)
 datainputs (catchplots)
 fisheries_plots
 presentations
@@ -64,7 +64,7 @@ stock_assessment_rep_2021 (figures, tables)
 ```
 
 Top dir                       | Subdir             | Contents
------------------------------ | ------------------ | ------------------------------------------------------------------
+----------------------------- | ------------------ | --------------------------------------------------------------------------
 (1) 4fin                      | kobe               |
 "                             | retro              |
 (2) 4john                     | s1m1d1r1g1         |
@@ -72,7 +72,7 @@ Top dir                       | Subdir             | Contents
 "                             | s3m2d3r2g2         |
 "                             | wcpo21             | m1, m2
 (3) 4nick                     | spo21_hessianfiles |
-(4) backccj                   | alb21              | s1m1d1r1g1, ..., s3m2d3r2g2, lprof, plots, projections, retro, web
+(4) backccj                   | alb21              | s1m1d1r1g1, ..., s3m2d3r2g2, impact, lprof, plots, projections, retro, web
 (5) datainputs                | catchplots         |
 (6) fisheries_plots           |                    |
 (7) presentations             |                    |
@@ -187,6 +187,33 @@ Top dir           | Subdir           | Contents
 (3) writeup       | assessment       |
 "                 | figures          |
 "                 | tables           |
+
+### SKJ 2019 (Matt)
+
+```
+(1) assessment
+      data_preparation (5region, 8region, cpue, lengthweight, maturity)
+      diagnostic (hessian, impact, kobe, lprof)
+      model_runs (grid, stepwise)
+      setup (5region, 8region, condor, exe, fisheries, tags)
+(2) presentations
+      progress
+(3) writeup
+      assessment
+      fisheries
+      inputs
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | ----------------------------------------------
+(1) assessment    | data_preparation | 5region, 8region, cpue, lengthweight, maturity
+"                 | diagnostic       | hessian, impact, kobe, lprof
+"                 | model_runs       | grid, stepwise
+"                 | setup            | 5region, 8region, condor, exe, fisheries, tags
+(2) presentations | progress         |
+(3) writeup       | assessment       |
+"                 | fisheries        |
+"                 | inputs           |
 
 ## Method to Examine Old Directory Trees
 
