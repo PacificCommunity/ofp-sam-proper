@@ -258,6 +258,30 @@ Top dir        | Subdir           | Contents
 "              | figs             |
 "              | tables           |
 
+### YFT 2017 (Laura)
+
+```
+(1) assessment
+      data_preparation (cpue, fisheries, mfdgr, size, tagging)
+      model_runs (diagnostics, grid, retro, sensitivities, stepwise, web)
+      setup (basefiles, build, condor, exe)
+(2) presentations
+(3) writeup
+      cpue
+      figures
+      tables
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | ------------------------------------------------------
+(1) assessment    | data_preparation | cpue, fisheries, mfdgr, size, tagging
+"                 | model_runs       | diagnostics, grid, retro, sensitivities, stepwise, web
+"                 | setup            | basefiles, build, condor, exe
+(2) presentations |                  |
+(3) writeup       | cpue             |
+"                 | figures          |
+"                 | tables           |
+
 ## Method to Examine Old Directory Trees
 
 ### How to Save as File
