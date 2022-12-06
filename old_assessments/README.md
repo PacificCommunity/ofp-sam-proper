@@ -42,8 +42,8 @@ Top dir        | Subdir           | Contents
 ```
 
 Top dir           | Subdir           | Contents
------------------ | ---------------- | ----------------------------------------------------------------------------
-(1) assessment    | data_preparation | biology, fisheries, cpue, length_comps, growth, mfdgr, regions, sql, tagging
+----------------- | ---------------- | -----------------------------------------------------------------------
+(1) assessment    | data_preparation | biology, fisheries, cpue, length_comps, growth, mfdgr, regions, tagging
 "                 | model_runs       | diagnostic, grid, hessian, lprof, retro, sensitivities
 "                 | setup            | build, condor, exe
 (2) presentations |                  |
@@ -112,18 +112,61 @@ Top dir        | Subdir           | Contents
       assessment, figures, inputs, tables
 ```
 
-Top dir           | Subdir                 | Contents
------------------ | ---------------------- | --------------------------------------------------------------------
-(1) assessment    | data_preparation       | age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging
-"                 | model_runs             | grid, retro, sensitivity, stepwise, web
-"                 | setup                  | basefiles, build, condorfiles, exe, grid, retro
-(2) presentations | cpue_workshop          |
-"                 | paw                    |
-"                 | sc                     |
-(3) writeup       | assessment             |
-"                 | figures                |
-"                 | inputs                 |
-"                 | tables                 |
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | --------------------------------------------------------------------
+(1) assessment    | data_preparation | age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging
+"                 | model_runs       | grid, retro, sensitivity, stepwise, web
+"                 | setup            | basefiles, build, condorfiles, exe, grid, retro
+(2) presentations | cpue_workshop    |
+"                 | paw              |
+"                 | sc               |
+(3) writeup       | assessment       |
+"                 | figures          |
+"                 | inputs           |
+"                 | tables           |
+
+### BET 2020 (Nicholas)
+
+```
+(1) data_prep
+      age_length
+      cpue
+      doitall
+      growth
+      maturity
+      length_comps
+      tagging
+(2) model_runs
+      condor
+      grid
+      lprof
+      mfcl
+      stepwise
+(3) presentations
+      weekly
+(4) reports
+      cpue_proposal, figures, inputs, tables
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | --------
+(1) data_prep     | age_length       |
+"                 | cpue             |
+"                 | doitall          |
+"                 | growth           |
+"                 | maturity         |
+"                 | length_comps     |
+"                 | tagging          |
+(2) model_runs    | condor           |
+"                 | grid             |
+"                 | lprof            |
+"                 | mfcl             |
+"                 | stepwise         |
+(3) presentations | weekly           |
+(4) reports       | cpue_proposal    |
+"                 | figures          |
+"                 | inputs           |
+"                 | tables           |
 
 ## Method to Examine Old Directory Trees
 
