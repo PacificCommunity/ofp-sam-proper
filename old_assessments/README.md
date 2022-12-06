@@ -92,13 +92,38 @@ Top dir                       | Subdir             | Contents
 (2) write-up
 ```
 
-Top dir        | Subdir             | Contents
--------------- | ------------------ | ------------------------------------------------------------------
-(1) assessment | data_preparation   | cpue, doitall, length_comps, mfdgr, movements, seapodym, tagging
-"              | model_runs         | run01, ..., run500, growthvar, post_sc, projections, stepwise)
-"              | refcase            |
-"              | setup              | basefiles, condor, step
-(2) write-up   |                    |
+Top dir        | Subdir           | Contents
+-------------- | ---------------- | ----------------------------------------------------------------
+(1) assessment | data_preparation | cpue, doitall, length_comps, mfdgr, movements, seapodym, tagging
+"              | model_runs       | run01, ..., run500, growthvar, post_sc, projections, stepwise)
+"              | refcase          |
+"              | setup            | basefiles, condor, step
+(2) write-up   |                  |
+
+### BET 2017 (Sam)
+
+```
+(1) assessment
+      data_preparation (age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging)
+      model_runs (grid, retro, sensitivity, stepwise, web)
+      setup (basefiles, build, condorfiles, exe, grid, retro)
+(2) presentations (cpue_workshop, paw, sc)
+(3) writeup
+      assessment, figures, inputs, tables
+```
+
+Top dir           | Subdir                 | Contents
+----------------- | ---------------------- | --------------------------------------------------------------------
+(1) assessment    | data_preparation       | age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging
+"                 | model_runs             | grid, retro, sensitivity, stepwise, web
+"                 | setup                  | basefiles, build, condorfiles, exe, grid, retro
+(2) presentations | cpue_workshop          |
+"                 | paw                    |
+"                 | sc                     |
+(3) writeup       | assessment             |
+"                 | figures                |
+"                 | inputs                 |
+"                 | tables                 |
 
 ## Method to Examine Old Directory Trees
 
