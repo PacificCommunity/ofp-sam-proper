@@ -50,6 +50,37 @@ Top dir           | Subdir           | Contents
 (3) write-up      | assessment       | figures, tables
 "                 | data             |
 
+### ALB 2021 (Claudio)
+
+```
+4fin (kobe, retro)
+4john (s1m1d1r1g1, ..., s3m2d3r2g2, wcpo21/m1, wcpo21/m2)
+4nick (spo21_hessianfiles)
+backccj (s1m1d1r1g1, ..., s3m2d3r2g2, lprof, plots, projections, retro, web)
+datainputs (catchplots)
+fisheries_plots
+presentations
+ss_alb21
+stock_assessment_rep_2021 (figures, tables)
+```
+
+Top dir                       | Subdir             | Contents
+----------------------------- | ------------------ | ------------------------------------------------------------------
+(1) 4fin                      | kobe               |
+"                             | retro              |
+(2) 4john                     | s1m1d1r1g1         |
+"                             | ...                |
+"                             | s3m2d3r2g2         |
+"                             | wcpo21             | m1, m2
+(3) 4nick                     | spo21_hessianfiles |
+(4) backccj                   | alb21              | s1m1d1r1g1, ..., s3m2d3r2g2, lprof, plots, projections, retro, web
+(5) datainputs                | catchplots         |
+(6) fisheries_plots           |                    |
+(7) presentations             |                    |
+(8) ss_alb21                  |                    |
+(9) stock_assessment_rep_2021 | figures            |
+"                             | tables             |
+
 ## Method to Examine Old Directory Trees
 
 ### How to Save as File
