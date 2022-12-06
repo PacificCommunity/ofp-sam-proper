@@ -1,8 +1,6 @@
 # Old Assessments
 
-## Directory Trees that Were Used
-
-### ALB 2015 (Shelton)
+## ALB 2015 (Shelton)
 
 ```
 (1) assessment
@@ -28,7 +26,7 @@ Top dir        | Subdir           | Contents
 "              | presentation     |
 "              | working          | figs, functions, tables
 
-### ALB 2018 (Laura)
+## ALB 2018 (Laura)
 
 ```
 (1) assessment
@@ -50,7 +48,7 @@ Top dir           | Subdir           | Contents
 (3) write-up      | assessment       | figures, tables
 "                 | data             |
 
-### ALB 2021 (Claudio)
+## ALB 2021 (Claudio)
 
 ```
 4fin (kobe, retro)
@@ -79,7 +77,7 @@ Top dir                       | Subdir             | Contents
 (8) stock_assessment_rep_2021 | figures            |
 "                             | tables             |
 
-### BET 2014 (Shelton)
+## BET 2014 (Shelton)
 
 ```
 (1) assessment
@@ -98,7 +96,7 @@ Top dir        | Subdir           | Contents
 "              | setup            | basefiles, condor, step
 (2) write-up   |                  |
 
-### BET 2017 (Sam)
+## BET 2017 (Sam)
 
 ```
 (1) assessment
@@ -123,7 +121,7 @@ Top dir           | Subdir           | Contents
 "                 | inputs           |
 "                 | tables           |
 
-### BET 2020 (Nicholas)
+## BET 2020 (Nicholas)
 
 ```
 (1) data_prep
@@ -166,7 +164,7 @@ Top dir           | Subdir        | Contents
 "                 | inputs        |
 "                 | tables        |
 
-### SKJ 2016 (Sam)
+## SKJ 2016 (Sam)
 
 ```
 (1) assessment
@@ -188,7 +186,7 @@ Top dir           | Subdir           | Contents
 "                 | figures          |
 "                 | tables           |
 
-### SKJ 2019 (Matt)
+## SKJ 2019 (Matt)
 
 ```
 (1) assessment
@@ -215,7 +213,7 @@ Top dir           | Subdir           | Contents
 "                 | fisheries        |
 "                 | inputs           |
 
-### SKJ 2022 (Claudio)
+## SKJ 2022 (Claudio)
 
 ```
 (1) assessment
@@ -232,7 +230,7 @@ Top dir        | Subdir           | Contents
 "              | presentations    |
 "              | report           | figures
 
-### YFT 2014 (Nick)
+## YFT 2014 (Nick)
 
 ```
 (1) assessment
@@ -258,7 +256,7 @@ Top dir        | Subdir           | Contents
 "              | figs             |
 "              | tables           |
 
-### YFT 2017 (Laura)
+## YFT 2017 (Laura)
 
 ```
 (1) assessment
@@ -282,7 +280,7 @@ Top dir           | Subdir           | Contents
 "                 | figures          |
 "                 | tables           |
 
-### YFT 2020 (Matt)
+## YFT 2020 (Matt)
 
 ```
 (1) assessment
@@ -304,21 +302,7 @@ Top dir           | Subdir           | Contents
 "                 | inputs           |
 "                 | tables           |
 
-### Notes
+## Notes
 
 Subdirectories `hessian`, `impact`, `kobe`, and `lprof` tend to be organized
 inside the `diagnostic` model run folder.
-
-## Method to Examine Old Directory Trees
-
-### How to Save as File
-
-To examine old assessment directory trees, ssh to penguin, navigate to an
-assessment (such as yft/2020) and then run:
-
-```
-ls -R | grep "^\." | sed 's/^\.\///' | sed 's/:$//' > ~/x.txt
-```
-
-This will produce a full list of directories that can be thinned down a bit, to
-reflect the main directory structure used in that year's assessment.
