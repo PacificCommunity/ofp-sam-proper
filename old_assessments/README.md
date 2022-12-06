@@ -225,12 +225,38 @@ Top dir           | Subdir           | Contents
       report (figures)
 ```
 
-Top dir           | Subdir           | Contents
------------------ | ---------------- | ---------------------------------------
-(1) assessment    | data_preparation | basefiles, cpue, mixing, mfdgr, tagging
-"                 | model_runs       | grid, hessian, impact, retro, rr
-"                 | presentations    |
-"                 | report           | figures
+Top dir        | Subdir           | Contents
+-------------- | ---------------- | ---------------------------------------
+(1) assessment | data_preparation | basefiles, cpue, mixing, mfdgr, tagging
+"              | model_runs       | grid, hessian, impact, retro, rr
+"              | presentations    |
+"              | report           | figures
+
+### YFT 2014 (Nick)
+
+```
+(1) assessment
+      data_preparation (build, check, doitall, mfdgr, regions, size, tagging)
+      model_runs (run01, ..., run43, sensitivities)
+      refcase
+      setup
+(2) writeup
+      assessment
+      presentation
+      figs
+      tables
+```
+
+Top dir        | Subdir           | Contents
+-------------- | ---------------- | ----------------------------------------------------
+(1) assessment | data_preparation | build, check, doitall, mfdgr, regions, size, tagging
+"              | model_runs       | run01, ..., run43, sensitivities
+"              | refcase          |
+"              | setup            |
+(2) writeup    | assessment       |
+"              | presentation     |
+"              | figs             |
+"              | tables           |
 
 ## Method to Examine Old Directory Trees
 
