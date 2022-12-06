@@ -103,7 +103,7 @@ Top dir        | Subdir           | Contents
 ```
 (1) assessment
       data_preparation (age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging)
-      model_runs (grid, retro, sensitivity, stepwise, web)
+      model_runs (grid, retro, sensitivities, stepwise, web)
       setup (basefiles, build, condorfiles, exe, grid, retro)
 (2) presentations (cpue_workshop, paw, sc)
 (3) writeup
@@ -113,7 +113,7 @@ Top dir        | Subdir           | Contents
 Top dir           | Subdir           | Contents
 ----------------- | ---------------- | --------------------------------------------------------------------
 (1) assessment    | data_preparation | age_length, catch, cpue, fisheries, growth, maturity, mfdgr, tagging
-"                 | model_runs       | grid, retro, sensitivity, stepwise, web
+"                 | model_runs       | grid, retro, sensitivities, stepwise, web
 "                 | setup            | basefiles, build, condorfiles, exe, grid, retro
 (2) presentations | cpue_workshop    |
 "                 | paw              |
@@ -281,6 +281,33 @@ Top dir           | Subdir           | Contents
 (3) writeup       | cpue             |
 "                 | figures          |
 "                 | tables           |
+
+### YFT 2020 (Matt)
+
+```
+(1) assessment
+      datapreparation (cpue, fisheries, growth, maturity, mfdgr, size, tagging)
+      modelruns (diagnostic, grid, hessian, impact, kobe, lprof, retro, sensititivies, singleregion, stepwise)
+      setup (basefiles, condor, exe, grid)
+(2) presentations (progress)
+(3) writeup (assessment, figures, inputs, tables)
+```
+
+Top dir           | Subdir           | Contents
+----------------- | ---------------- | --------------------------------------------------------------------------------------------
+(1) assessment    | datapreparation  | cpue, fisheries, growth, maturity, mfdgr, size, tagging
+"                 | modelruns        | diagnostic, grid, hessian, impact, kobe, lprof, retro, sensititivies, singleregion, stepwise
+"                 | setup            | basefiles, condor, exe, grid
+(2) presentations | progress         |
+(3) writeup       | assessment       |
+"                 | figures          |
+"                 | inputs           |
+"                 | tables           |
+
+### Notes
+
+Subdirectories `hessian`, `impact`, `kobe`, and `lprof` tend to be organized
+inside the `diagnostic` model run folder.
 
 ## Method to Examine Old Directory Trees
 
