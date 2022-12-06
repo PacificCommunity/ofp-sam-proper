@@ -60,7 +60,6 @@ backccj (s1m1d1r1g1, ..., s3m2d3r2g2, lprof, plots, projections, retro, web)
 datainputs (catchplots)
 fisheries_plots
 presentations
-ss_alb21
 stock_assessment_rep_2021 (figures, tables)
 ```
 
@@ -77,8 +76,7 @@ Top dir                       | Subdir             | Contents
 (5) datainputs                | catchplots         |
 (6) fisheries_plots           |                    |
 (7) presentations             |                    |
-(8) ss_alb21                  |                    |
-(9) stock_assessment_rep_2021 | figures            |
+(8) stock_assessment_rep_2021 | figures            |
 "                             | tables             |
 
 ### BET 2014 (Shelton)
@@ -148,24 +146,46 @@ Top dir           | Subdir           | Contents
       cpue_proposal, figures, inputs, tables
 ```
 
+Top dir           | Subdir        | Contents
+----------------- | ------------- | --------
+(1) data_prep     | age_length    |
+"                 | cpue          |
+"                 | doitall       |
+"                 | growth        |
+"                 | maturity      |
+"                 | length_comps  |
+"                 | tagging       |
+(2) model_runs    | condor        |
+"                 | grid          |
+"                 | lprof         |
+"                 | mfcl          |
+"                 | stepwise      |
+(3) presentations | weekly        |
+(4) reports       | cpue_proposal |
+"                 | figures       |
+"                 | inputs        |
+"                 | tables        |
+
+### SKJ 2016 (Sam)
+
+```
+(1) assessment
+      data_preparation (cpue, fisheries, growth, mfdgr, tagging)
+      model_runs (diagnostic, grid, hessian, impact, kobe, lprof, projections, retro, sensitivities)
+      setup (basefiles, build, condor, exe, retro)
+(2) presentations (paw, sc)
+(3) writeup (assessment, figures, tables)
+```
+
 Top dir           | Subdir           | Contents
------------------ | ---------------- | --------
-(1) data_prep     | age_length       |
-"                 | cpue             |
-"                 | doitall          |
-"                 | growth           |
-"                 | maturity         |
-"                 | length_comps     |
-"                 | tagging          |
-(2) model_runs    | condor           |
-"                 | grid             |
-"                 | lprof            |
-"                 | mfcl             |
-"                 | stepwise         |
-(3) presentations | weekly           |
-(4) reports       | cpue_proposal    |
+----------------- | ---------------- | ---------------------------------------------------------------------------------
+(1) assessment    | data_preparation | cpue, fisheries, growth, mfdgr, tagging
+"                 | model_runs       | diagnostic, grid, hessian, impact, kobe, lprof, projections, retro, sensitivities
+"                 | setup            | basefiles, build, condor, exe, retro
+(2) presentations | paw              |
+"                 | sc               |
+(3) writeup       | assessment       |
 "                 | figures          |
-"                 | inputs           |
 "                 | tables           |
 
 ## Method to Examine Old Directory Trees
