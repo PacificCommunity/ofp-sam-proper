@@ -3,8 +3,8 @@
 ## ALB 2015 (Shelton)
 
 Top dir        | Subdir           | Contents
--------------- | ---------------- | ------------------------------------------------------------------------
-(1) assessment | data_preparation | age_length, biology, frq, cpue, fisheries, length_comps, mfdgr, tagging)
+-------------- | ---------------- | -----------------------------------------------------------------------
+(1) assessment | data_preparation | age_length, biology, cpue, fisheries, frq, length_comps, mfdgr, tagging
 "              | model_runs       | run001, run009, ..., run535
 "              | projections      |
 "              | refcase          |
@@ -166,3 +166,45 @@ Top dir           | Subdir           | Contents
 
 Subdirectories `hessian`, `impact`, `kobe`, and `lprof` tend to be organized
 inside the `diagnostic` model run folder.
+
+## Recommendation
+
+```
+(1) data_preparation
+      age_length
+      cpue (4region, 8region, 1region)
+      fisheries (4region, 8region, 1region)
+      growth
+      maturity
+      natmort
+      regions
+      size_comps (4region, 8region, 1region)
+      tagging (4region, 8region, 1region)
+(2) model_runs
+      setup (basefiles, condorfiles, doitall, executable, grid, retro)
+      stepwise (=>4region)
+      jitter
+      diagnostic (incl. rr)
+      hessian
+      lprof
+      retro
+      sensitivities (incl. 1region)
+      kobe/majuro
+      impact
+      grid
+      projections
+      web
+(3) plots
+      assessment
+      data
+      shiny
+(4) presentations
+      weekly
+      paw
+      sc
+(5) writeup
+      assessment (tables)
+      data_inputs
+      new_cpue
+      regional_structure
+```
