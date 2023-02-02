@@ -208,3 +208,38 @@ inside the `diagnostic` model run folder.
       new_cpue
       regional_structure
 ```
+
+Top dir              | Subdir             | Contents
+-------------------- | ------------------ | ---------------------------------------------------------------------------------------------
+(1) data_preparation | age_length         |
+"                    | cpue               | 4region, 8region, 1region
+"                    | fisheries          | 4region, 8region, 1region
+"                    | growth             |
+"                    | maturity           |
+"                    | natmort            |
+"                    | regions            |
+"                    | size_comps         | 4region, 8region, 1region
+"                    | tagging            | 4region, 8region, 1region
+(2) model_runs       | setup              | basefiles, condorfiles, doitall, executable, grid, jitter, retro
+"                    | stepwise           | 4region
+"                    | jitter             |
+"                    | diagnostic         |
+"                    | hessian            |
+"                    | lprof              |
+"                    | retro              |
+"                    | sensitivities      | 1region
+"                    | kobe/majuro        |
+"                    | impact             |
+"                    | grid               |
+"                    | projections        |
+"                    | web                |
+(3) plots            | assessment         |
+"                    | data               |
+"                    | shiny              |
+(4) presentations    | weekly             |
+"                    | paw                |
+"                    | sc                 |
+(5) writeup          | assessment         | tables
+"                    | data_inputs        |
+"                    | new_cpue           |
+"                    | regional_structure |
