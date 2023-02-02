@@ -168,44 +168,44 @@ The recommendation is to promote `data_preparation` and `model_runs` to become
 top directories. There are often different people involved in data preparation
 vs. model runs, and both consist of a large number of subdirectories.
 
-The `plots` also becomes a top directory. This is an essential part of the work
-that is carried over to the person who will conduct the next assessment of the
-stock.
+The `plots` also becomes a top directory and is not optional. This is an
+essential part of the work that is carried over to the person who will conduct
+the next assessment of the stock.
 
 In the table below, the 5 top directories should be required and the naming
-scheme for subdirectories is highly recommended. The 'Example Contents' column,
+scheme for subdirectories is highly recommended. The 'Example contents' column,
 however, will vary depending on focus topics for that assessment. Lowercase
 directory names are useful to prevent OS-specific errors in scripts.
 
-Top dir              | Subdir             | Example Contents
--------------------- | ------------------ | -------------------------------------------------------------------------------------------------
-(1) data_preparation | age_length         |
-"                    | cpue               | 4region, 8region, 1region
-"                    | fisheries          | 4region, 8region, 1region
-"                    | growth             |
-"                    | maturity           |
-"                    | natmort            |
-"                    | regions            |
-"                    | size_comps         | 4region, 8region, 1region
-"                    | tagging            | 4region, 8region, 1region
-(2) model_runs       | setup              | basefiles, condorfiles, doitall, executable
-"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region
-"                    | jitter             |
-"                    | diagnostic         |
-"                    | hessian            |
-"                    | lprof              |
-"                    | retro              |
-"                    | sensitivities      | 1region
-"                    | kobe_majuro        |
-"                    | impact             |
-"                    | grid               |
-"                    | projections        |
-"                    | web                |
-(3) plots            | assessment         |
-"                    | data               |
-"                    | shiny              |
-(4) presentations    | weekly             |
-"                    | paw                |
-"                    | sc                 |
-(5) writeup          | assessment         | tables
-"                    | data_inputs        | new_cpue, regional_structure
+Top dir              | Subdir        | Example contents
+-------------------- | ------------- | ---------------------------------------------------------------------------------------------
+(1) data_preparation | age_length    |
+"                    | cpue          | 4region, 8region, 1region
+"                    | fisheries     | 4region, 8region, 1region
+"                    | growth        |
+"                    | maturity      |
+"                    | natmort       |
+"                    | regions       |
+"                    | size_comps    | 4region, 8region, 1region
+"                    | tagging       | 4region, 8region, 1region
+(2) model_runs       | setup         | basefiles, condorfiles, doitall, executable
+"                    | stepwise      | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region
+"                    | jitter        |
+"                    | diagnostic    |
+"                    | hessian       |
+"                    | lprof         |
+"                    | retro         |
+"                    | sensitivities | 1region
+"                    | kobe_majuro   |
+"                    | impact        |
+"                    | grid          |
+"                    | projections   |
+"                    | web           |
+(3) plots            | assessment    |
+"                    | data          |
+"                    | shiny         |
+(4) presentations    | weekly        |
+"                    | paw           |
+"                    | sc            |
+(5) writeup          | assessment    | tables
+"                    | data_inputs   | new_cpue, regional_structure
