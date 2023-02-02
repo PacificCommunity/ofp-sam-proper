@@ -166,8 +166,8 @@ Top dir           | Subdir           | Contents
 
 Subdirectories `hessian`, `impact`, `kobe`, and `lprof` have sometimes been
 organized inside the `diagnostic` model run folder. To keep the directory tree
-no deeper than 2 levels, these are subdirectories (and not subsubdirectories)
-inside `model_runs`.
+no deeper than 2 levels, the recommendation is to have these as subdirectories
+(and not subsubdirectories) inside `model_runs`.
 
 ## Recommendation
 
