@@ -172,18 +172,18 @@ no deeper than 2 levels, the recommendation is to have these as subdirectories
 ## Recommendation
 
 Top dir              | Subdir             | Contents
--------------------- | ------------------ | ---------------------------------------------------------------------------------------------
+-------------------- | ------------------ | -------------------------------------------------------------------------------------------------
 (1) data_preparation | age_length         |
-"                    | cpue               | 4region, 8region, 1region
-"                    | fisheries          | 4region, 8region, 1region
+"                    | cpue               | 4region, 8region, 1region (*)
+"                    | fisheries          | 4region, 8region, 1region (*)
 "                    | growth             |
 "                    | maturity           |
 "                    | natmort            |
 "                    | regions            |
-"                    | size_comps         | 4region, 8region, 1region
-"                    | tagging            | 4region, 8region, 1region
+"                    | size_comps         | 4region, 8region, 1region (*)
+"                    | tagging            | 4region, 8region, 1region (*)
 (2) model_runs       | setup              | basefiles, condorfiles, doitall, executable, grid, jitter, retro
-"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region
+"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region (*)
 "                    | jitter             |
 "                    | diagnostic         |
 "                    | hessian            |
@@ -205,3 +205,6 @@ Top dir              | Subdir             | Contents
 "                    | data_inputs        |
 "                    | new_cpue           |
 "                    | regional_structure |
+
+The subdirectories marked with an asterisk (within `data_preparation` and
+`stepwise`) are somewhat specific to the BET & YFT 2023.
