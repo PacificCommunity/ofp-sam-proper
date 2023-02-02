@@ -223,7 +223,7 @@ Top dir              | Subdir             | Contents
 "                    | size_comps         | 4region, 8region, 1region
 "                    | tagging            | 4region, 8region, 1region
 (2) model_runs       | setup              | basefiles, condorfiles, doitall, executable, grid, jitter, retro
-"                    | stepwise           | 4region
+"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region
 "                    | jitter             |
 "                    | diagnostic         |
 "                    | hessian            |
