@@ -14,7 +14,7 @@ changes are that:
 
 ## Recommended directory structure for SPC assessments
 
-See [recomendation](dir_tree/README.md#recommendation).
+See [recommendation](dir_tree/README.md#recommendation).
 
 ## GitHub
 
