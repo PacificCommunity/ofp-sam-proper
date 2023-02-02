@@ -162,35 +162,41 @@ Top dir           | Subdir           | Contents
 "                 | inputs           |
 "                 | tables           |
 
-## Notes
-
-Subdirectories `hessian`, `impact`, `kobe`, and `lprof` have sometimes been
-organized inside the `diagnostic` model run folder. To keep the directory tree
-no deeper than 2 levels, the recommendation is to have these as subdirectories
-(and not subsubdirectories) inside `model_runs`.
-
 ## Recommendation
 
-Top dir              | Subdir             | Contents
+The recommendation is to promote `data_preparation` and `model_runs` to become
+top directories. There are often different people involved in data preparation
+vs. model runs, and both consist of a large number of subdirectories.
+
+The `plots` also becomes a top directory. This is an essential part of the work
+that is carried over to the person who will conduct the next assessment of the
+stock.
+
+In the table below, the 5 top directories should be required and the naming
+scheme for subdirectories is highly recommended. The 'Example Contents' column,
+however, will vary depending on focus topics for that assessment. Lowercase
+directory names are useful to prevent OS-specific errors in scripts.
+
+Top dir              | Subdir             | Example Contents
 -------------------- | ------------------ | -------------------------------------------------------------------------------------------------
 (1) data_preparation | age_length         |
-"                    | cpue               | 4region, 8region, 1region (*)
-"                    | fisheries          | 4region, 8region, 1region (*)
+"                    | cpue               | 4region, 8region, 1region
+"                    | fisheries          | 4region, 8region, 1region
 "                    | growth             |
 "                    | maturity           |
 "                    | natmort            |
 "                    | regions            |
-"                    | size_comps         | 4region, 8region, 1region (*)
-"                    | tagging            | 4region, 8region, 1region (*)
-(2) model_runs       | setup              | basefiles, condorfiles, doitall, executable, grid, jitter, retro
-"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region (*)
+"                    | size_comps         | 4region, 8region, 1region
+"                    | tagging            | 4region, 8region, 1region
+(2) model_runs       | setup              | basefiles, condorfiles, doitall, executable
+"                    | stepwise           | I: newexe, catchcond, initpop, reprate, dirichlet, compwts, II: revisedata, newyears, 4region
 "                    | jitter             |
 "                    | diagnostic         |
 "                    | hessian            |
 "                    | lprof              |
 "                    | retro              |
 "                    | sensitivities      | 1region
-"                    | kobe/majuro        |
+"                    | kobe_majuro        |
 "                    | impact             |
 "                    | grid               |
 "                    | projections        |
@@ -202,9 +208,4 @@ Top dir              | Subdir             | Contents
 "                    | paw                |
 "                    | sc                 |
 (5) writeup          | assessment         | tables
-"                    | data_inputs        |
-"                    | new_cpue           |
-"                    | regional_structure |
-
-The subdirectories marked with an asterisk (within `data_preparation` and
-`stepwise`) are somewhat specific to the BET & YFT 2023.
+"                    | data_inputs        | new_cpue, regional_structure
