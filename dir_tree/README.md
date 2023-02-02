@@ -164,16 +164,20 @@ Top dir           | Subdir           | Contents
 
 ## Recommendation
 
-The recommendation is to promote `data_preparation` and `model_runs` to become
-top directories. There are often different people involved in data preparation
-vs. model runs, and both consist of a large number of subdirectories.
+The recommendation is to organize `data_preparation` and `model_runs` as top
+directories. There are often different people involved in data preparation vs.
+model runs, and both consist of a large number of subdirectories.
 
 The `plots` also becomes a top directory and is not optional. This is an
 essential part of the work that is carried over to the person who will conduct
-the next assessment of the stock.
+the next assessment of the stock. The plot scripts read files from
+`data_preparation` and `model_runs` and are written in a clear and reproducible
+format, allowing all team members to produce most (ideally all) of the figures
+found in the stock assessment report. One script for each final report figure
+should be a practical and general rule.
 
 In the table below, the 5 top directories should be required and the naming
-scheme for subdirectories is highly recommended. The 'Example contents' column,
+scheme for subdirectories is recommended. The 'Example contents' column,
 however, will vary depending on focus topics for that assessment. Lowercase
 directory names are useful to prevent OS-specific errors in scripts.
 
