@@ -16,6 +16,6 @@ changes are that:
 
 * [The Standard Tree 'Manifesto'](manifesto.md)
 
-* [Directory tree recommendation](dir_tree/README.md#recommendation).
+* [Directory tree recommendation](dir_tree/README.md#recommendation)
 
 * [GitHub repositories](github.md)
