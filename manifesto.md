@@ -36,8 +36,14 @@ workflows will also become more machine readable. Using relative paths in R, a
 script that was developed for YFT this year will to a large extent 'just work'
 when dropped into next year's ALB directory tree.
 
-A standard directory will not guarantee reproducibility, but it greatly enhances
-our ability to conduct analyses that are partially or fully reproducible.
+A standard directory tree will not guarantee reproducibility, but it greatly
+enhances our ability to conduct analyses that are partially or fully
+reproducible.
+
+The directory tree allows us to use the same tools to organize, submit, and plot
+MFCL runs of different stocks, for example. It is an absolute requirement and
+first step to develop and use shared tools and workflows, improving the
+efficiency, reliability, and quality of our analytical work.
 
 ## Freedom and Tradition
 
