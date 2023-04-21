@@ -1,8 +1,7 @@
 # Standard Tree
 
-*How and why we use a [standard directory
-tree](https://github.com/PacificCommunity/ofp-sam-assessment-repos/blob/main/dir_tree/README.md#recommendation)
-for SPC stock assessments*
+*How and why we use a [standard directory tree](dir_tree#recommendation) for SPC
+stock assessments*
 
 ## Parallel Parking: Keys Are in the Glove Compartment
 
@@ -24,10 +23,9 @@ workflows'.
 
 ## Really, Directory Names?
 
-Dictating how people organize and name directories may seem somewhat trivial,
-focusing on the bookbinding rather than what's inside the book, so it's worth
-elaborating on why it is important to use a standard directory structure for SPC
-assessment workflows.
+Dictating how people organize and name directories may seem somewhat trivial, so
+it's worth elaborating on why it is important to use a standard directory
+structure for SPC assessment workflows.
 
 Embracing the diversity of the analyses conducted each year and of the people
 involved, it provides a structured and predictable container. Not only will it
