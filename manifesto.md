@@ -92,19 +92,22 @@ another person at a later time.
 The [TAF](https://cran.r-project.org/package=TAF) package in R is designed to
 make analyses fully reproducible and is widely used in fisheries science.
 
-## Directory Police, Call the Robots
+## Quality Control
 
 During the assessment work, the directory tree can be useful to track progress
-and collaborate efficiently. After the assessment is delivered, team mates and
+and collaborate efficiently. After the assessment is delivered, teammates and
 semi-automated functions could check which directories exist. If important
-directories are empty or do not exist, it may mean that the files have not been
-parked yet. Beyond directory names, team mates can test and confirm that key
-analytical products (diagnostic model, assessment plots) have been parked in a
-reproducible manner.
+directories are empty or missing, it may mean that these analyses have not been
+parked and the work therefore not yet completed.
+
+Beyond directory names, teammates can test and confirm that key analytical
+products (diagnostic model, assessment plots) have been parked in a reproducible
+manner.
 
 A standard directory tree is a simple thing, but as a basis of quality assurance
 and quality control, it can lead to improved quality and efficiency of SPC stock
-assessment work.
+assessment work. Predictable file locations also form the basis of using and
+sharing efficient tools to facilitate our work.
 
 ## Recommend, Enforce, Profit!
 
@@ -113,7 +116,7 @@ easier to:
 
 1. Organize ongoing assessments in a structured way
 2. Have all assessment-related analyses in one place
-3. Allow team mates to find things
+3. Allow teammates to find things
 4. Share analytical scripts using relative paths
 5. Apply tools such as Shiny to any assessment
 6. Park an assessment that the next assessor can run
