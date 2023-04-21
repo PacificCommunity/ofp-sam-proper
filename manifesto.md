@@ -27,16 +27,21 @@ Dictating how people organize and name directories may seem somewhat trivial, so
 it's worth elaborating on why it is important to use a standard directory
 structure for SPC assessment workflows.
 
-Embracing the diversity of the analyses conducted each year and of the people
-involved, it provides a structured and predictable container. Not only will it
-be easier for everyone to know where to look for things, but our analytical
-workflows will also become more machine readable. Using relative paths in R, a
-script that was developed for YFT this year will to a large extent 'just work'
-when dropped into next year's ALB directory tree.
+The standard directory tree specifies rigid 1st and 2nd level directory names
+without specifying anything about the contents of 3rd level directories or
+filenames. In this way, it provides a structured and predictable container while
+embracing the diversity of the analyses conducted each year and of the people
+involved.
 
-A standard directory tree will not guarantee reproducibility, but it greatly
-enhances our ability to conduct analyses that are partially or fully
-reproducible.
+Not only will it be easier for everyone to know where to look for things, but
+our analytical workflows will also become more machine readable. Using [relative
+file paths](file_paths.md#2-use-relative-paths) in R, a script that was
+developed for YFT this year will to a large extent 'just work' when dropped into
+next year's ALB directory tree.
+
+Using a standard directory tree and relative paths will not guarantee
+reproducibility, but will greatly enhances our ability to conduct analyses that
+are partially or fully reproducible.
 
 The directory tree allows us to use the same tools to organize, submit, and plot
 MFCL runs of different stocks, for example. It is an absolute requirement and
@@ -118,3 +123,7 @@ easier to:
 4. Share analytical scripts using relative paths
 5. Apply tools such as Shiny to any assessment
 6. Park an assessment that the next assessor can run
+
+No one will benefit more from the standard directory tree than the stock
+assessor. Specifically the next stock assessor, who will inherit a well managed
+project that can be built upon.
