@@ -164,6 +164,9 @@ Top dir           | Subdir           | Contents
 
 ## Recommendation
 
+Background reading material: [The Standard Tree
+Manifesto](manifesto.md#standard-tree).
+
 The recommendation is to organize `data_preparation` and `model_runs` as top
 directories. There are often different people involved in data preparation vs.
 model runs, and both consist of a large number of subdirectories.
