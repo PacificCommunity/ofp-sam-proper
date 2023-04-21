@@ -2,7 +2,7 @@
 
 ## Recommendation
 
-Background reading material: [The Standard Tree
+Background reading material: the [Standard Tree
 Manifesto](../manifesto.md#standard-tree).
 
 The recommendation is to organize `data_preparation` and `model_runs` as top
