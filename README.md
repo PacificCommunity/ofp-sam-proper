@@ -1,4 +1,4 @@
-# Recommendations on how to structure SPC assessment work
+# How to structure SPC assessment work
 
 ## New Style
 
