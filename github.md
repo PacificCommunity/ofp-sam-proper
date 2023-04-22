@@ -22,5 +22,6 @@ Specifically, the analyses where we would like to:
 5. Automatic **backup**. This means we can explore or restore any previous state
    and there is no danger of things being accidentally deleted.
 
-6. Work on the laptop hard drive (fast), while guaranteeing that the Penguin
-   archive has an exact **identical archive** (clone) of the work that was done.
+6. Guarantee an exact **identical archive** (clone) on Penguin of the work that
+   was done, while enjoying the speed and efficiency of working on the laptop
+   hard drive.
