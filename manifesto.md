@@ -66,11 +66,11 @@ standard.
 
 Many subdirectories of the tree can be GitHub repositories (yft-2023-shiny,
 yft-2023-stepwise, yft-2023-plots, etc.) while others are plain directories. It
-is up to the stock assessor to decide when it is helpful to conduct using a
-version-controlled repository. This will depend on the nature of each analysis,
-the technical expertise of the assessor, and collaborative dynamics. Some GitHub
-analyses can be made public after the assessment has been delivered, effectively
-a modern technical annex to the published report.
+is up to the stock assessor to decide when it is helpful to conduct a specific
+analysis using a version-controlled repository. This will depend on the nature
+of each analysis, the technical expertise of the assessor, and collaborative
+dynamics. Some GitHub analyses can be made public after the assessment has been
+delivered, effectively a modern technical annex to the published report.
 
 When GitHub repositories are cloned to Penguin into the directory tree, they
 appear as normal folders. It is generally not important which folders on Penguin
@@ -125,6 +125,11 @@ easier to:
 5. Apply tools such as Shiny to any assessment
 6. Park an assessment that the next assessor can run
 
+To summarize, without a standard directory tree, we can't even get started to
+improve the reproducibility and quality of SPC stock assessments. There is
+essentially no overhead in using standard names and the advantages are
+considerable.
+
 No one will benefit more from the standard directory tree than the stock
 assessor. Specifically the next stock assessor, who will inherit a well managed
-project that can be built upon.
+project that is ready to build upon.
