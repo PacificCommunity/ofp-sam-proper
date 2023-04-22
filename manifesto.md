@@ -63,13 +63,13 @@ link and scroll up, you will see that previous stock assessors going to back to
 
 ## GitHub and Penguin, Do They Get Along?
 
-Many subdirectories of the tree can be GitHub repositories (yft-2023-cpue,
-yft-2023-stepwise, yft-2023-data-plots, etc.) while others are plain
-directories. It is up to the stock assessor to decide when it is helpful to
-conduct using a version-controlled repository. This will depend on the nature of
-each analysis, the technical expertise of the assessor, and collaborative
-dynamics. Some GitHub analyses can be made public after the assessment has been
-delivered, effectively a modern technical annex to the published report.
+Many subdirectories of the tree can be GitHub repositories (yft-2023-shiny,
+yft-2023-stepwise, yft-2023-plots, etc.) while others are plain directories. It
+is up to the stock assessor to decide when it is helpful to conduct using a
+version-controlled repository. This will depend on the nature of each analysis,
+the technical expertise of the assessor, and collaborative dynamics. Some GitHub
+analyses can be made public after the assessment has been delivered, effectively
+a modern technical annex to the published report.
 
 When GitHub repositories are cloned to Penguin into the directory tree, they
 appear as normal folders. It is generally not important which folders on Penguin
