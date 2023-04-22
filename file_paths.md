@@ -7,7 +7,7 @@ teammates can run:
 2. Use relative paths
 3. Spell out the Penguin drive
 
-## 1. Never use 'setwd' in scripts
+## Never use 'setwd' in scripts
 
 **Working Directory (nope)**
 
@@ -38,7 +38,7 @@ Session - Set Working Directory - To Source File Location
 This can be run from the keyboard by pressing `Alt-s` `w` `s`. (The Alt key is
 released after pressing the first s.)
 
-## 2. Use relative paths
+## Use relative paths
 
 To make it possible for all teammates to run analyses, it is important that all
 R scripts use **relative file paths**.
@@ -78,7 +78,7 @@ directory. We read and write files using a relative path:
 read.csv("data/table.csv")
 ```
 
-## 3. Spell out the Penguin drive
+## Spell out the Penguin drive
 
 On SPC Windows machines, the Penguin drive may have the letter `Z:`, `X:`, or no
 letter at all. A reliable and recommended way to read data from Penguin in R
