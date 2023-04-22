@@ -1,7 +1,7 @@
 # Standard Tree
 
-*How and why we use a [standard directory tree](dir_tree#recommendation) for SPC
-stock assessments*
+*How and why we use a [standard directory tree](dir_tree.md#recommendation) for
+SPC stock assessments*
 
 ## Parallel Parking: Keys Are in the Glove Compartment
 
@@ -50,16 +50,17 @@ efficiency, reliability, and quality of our analytical work.
 
 ## Freedom and Tradition
 
-Scientists have full freedom of what R packages and assessment platforms (MFCL,
-SS, FIMS, etc.) they use, filenames used, etc. All SPC stock assessment analyses
-should fit logically inside the tree. The directory tree can continue to develop
-on the GitHub site linked above, as needed. This thing is future-proof.
+Scientists have full freedom of what R packages and assessment platforms they
+use (MFCL, Stock Synthesis, FIMS, Gadget, CASAL, other). All SPC stock
+assessment analyses should fit logically inside the tree. The directory tree can
+continue to develop on the GitHub site linked above, as needed. This thing is
+future-proof.
 
 The standard directory tree is designed to resemble and improve how past
-assessments were conducted. If you click the
-[recommendation](https://github.com/PacificCommunity/ofp-sam-assessment-repos/blob/main/dir_tree/README.md#recommendation)
-link and scroll up, you will see that previous stock assessors going to back to
-2014 used a similar structure and would feel right at home.
+assessments were conducted. The [directory tree](dir_tree.md#old-assessments)
+page includes an overview that shows how previous stock assessors going to back
+to 2014 have used a similar structure and would feel right at home with the new
+standard.
 
 ## GitHub and Penguin, Do They Get Along?
 
