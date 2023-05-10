@@ -9,8 +9,11 @@ Specifically, the analyses where we would like to:
    cognitive load, catch accidental errors, and guide the next steps in the
    exploratory analysis.
 
-2. Strengthen **reproducibility**. Any team member can clone a copy of the
-   repository on their laptop and check if the analysis runs.
+2. Strengthen **reproducibility**. Compared to traditional Penguin directories,
+   GitHub repositories tend to contain *only the required files* and be *clearly
+   organized*, representing an analysis that is more likely to *run on any
+   machine*. Any team member can clone a copy of the repository on their laptop
+   and check if the analysis runs.
 
 3. Facilitate **collaboration**. GitHub provides tools and workflows to help
    team members work together on a specific analysis.
