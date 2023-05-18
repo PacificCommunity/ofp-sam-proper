@@ -27,9 +27,9 @@ The easiest way to ensure that the working directory is the same as the script
 directory is to open the editor (e.g. RStudio) by clicking on the script file in
 File Explorer.
 
-If the editor was open, it is possible that the working directory is something
-else, some undefined location from earlier work. RStudio has a handy menu
-command to set the working directory to the script location:
+If the editor was already open, it is possible that the working directory is
+something else, some undefined location from earlier work. RStudio has a handy
+menu command to set the working directory to the script location:
 
 ```
 Session - Set Working Directory - To Source File Location
