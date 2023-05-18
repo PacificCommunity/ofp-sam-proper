@@ -24,7 +24,7 @@ workflows'.
 ## Really, Directory Names?
 
 Dictating how people organize and name directories may seem somewhat trivial, so
-it's worth elaborating on why it is important to use a standard directory
+it is worth elaborating on why it is important to use a standard directory
 structure for SPC assessment workflows.
 
 The standard directory tree specifies rigid 1st and 2nd level directory names
