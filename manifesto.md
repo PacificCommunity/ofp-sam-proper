@@ -33,11 +33,11 @@ filenames. In this way, it provides a structured and predictable container while
 embracing the diversity of the analyses conducted each year and of the people
 involved.
 
-Not only will it be easier for everyone to know where to look for things, but
-our analytical workflows will also become more machine readable. Using [relative
-file paths](file_paths.md#2-use-relative-paths) in R, a script that was
-developed for YFT this year will to a large extent 'just work' when dropped into
-next year's ALB directory tree.
+Not only will it be easier for everyone to know where to store and look for
+things, but our analytical workflows will also become more machine readable.
+Using [relative file paths](file_paths.md#use-relative-paths) in R, a script
+that was developed for YFT this year will to a large extent 'just work' when
+dropped into next year's ALB directory tree.
 
 Using a standard directory tree and relative paths will not guarantee
 reproducibility, but will greatly enhances our ability to conduct analyses that
@@ -110,8 +110,7 @@ manner.
 
 A standard directory tree is a simple thing, but as a basis of quality assurance
 and quality control, it can lead to improved quality and efficiency of SPC stock
-assessment work. Predictable file locations also form the basis of using and
-sharing efficient tools to facilitate our work.
+assessment work.
 
 ## Recommend, Enforce, Profit!
 
