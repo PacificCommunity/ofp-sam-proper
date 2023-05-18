@@ -9,5 +9,5 @@ assessment (such as yft/2020) and then run:
 ls -R | grep "^\." | sed 's/^\.\///' | sed 's/:$//' > ~/x.txt
 ```
 
-This will produce a full list of directories that can be thinned down a bit, to
+This will produce a full list of directories that can be thinned down a bit to
 reflect the main directory structure used in that year's assessment.
