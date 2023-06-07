@@ -13,7 +13,7 @@ teammates can run:
 
 The `setwd` function should never be used in an R script:
 
-```
+```{r}
 # No one else can run this script
 setwd("c:/arnistuff/analysis")
 ```
@@ -47,7 +47,7 @@ R scripts use **relative file paths**.
 
 Files should not be read from or written to the user drive:
 
-```
+```{r}
 # No one else can run this script
 read.csv("c:/arnistuff/analysis/data/table.csv")
 ```
@@ -58,7 +58,7 @@ Sometimes, it's convenient to read from or write to Penguin directly. This
 convenience comes at a price, since the script will only run if the user happens
 to be running in Windows:
 
-```
+```{r}
 # This script will not run on Linux machines
 read.csv("//penguin/assessments/yft/2023/some/data.csv")
 ```
@@ -73,7 +73,7 @@ machines at SPC.
 Every script can assume that the working directory is the same as the script
 directory. We read and write files using a relative path:
 
-```
+```{r}
 # Everyone can run this
 read.csv("data/table.csv")
 ```
@@ -86,14 +86,29 @@ scripts is to use the `//penguin/assessments` prefix.
 
 **Z: (not recommended)**
 
-```
+```{r}
 # This script will run on some Windows machines
 read.csv("Z:/yft/2023/some/data.csv")
 ```
 
 **//penguin/assessments (recommended)**
 
-```
+```{r}
 # This script will run on all Windows machines
 read.csv("//penguin/assessments/yft/2023/some/data.csv")
+```
+
+## Constructing Paths
+
+The recommended path separator in R is `/` rather than `\\`.
+
+In R scripts, it is recommended to use `file.path` rather than `paste` or
+`paste0` to construct paths. This makes the code more readable by making it
+clear that a file path is being constructed. It is also a more robust approach
+that supports clean directory names without extraneous slashes:
+
+```{r}
+folder <- "data"              # no slash in string
+subfolder <- "cpue"           # no slash in string
+file.path(folder, subfolder)  # no need to specify separator as "/"
 ```
