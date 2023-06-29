@@ -10,12 +10,12 @@ the goal of recommending specific improvements to support high quality and
 reproducibility of assessment-related analyses.
 
 Reproducibility was identified as a high priority. After an SPC assessment has
-been delivered, the analyses should be parked in a way that the next stock
-assessor can pick up and run without problems. If this is not done well, it
-translates into lost SPC resources and time, ultimately affecting the quality of
-the next assessment. In other words, instead of leaving a large debt for the
-next stock assessor, an assessment should be parked as a well-prepared
-springboard into the next round.
+been delivered, each analysis should be parked in a way that the next stock
+assessor can pick it up and run without problems. If this is not done well, it
+translates into considerable lost SPC resources and time, ultimately affecting
+the quality of the next assessment. In other words, instead of leaving a large
+debt for the next stock assessor, an assessment should be parked as a
+well-prepared springboard into the next round.
 
 The standard directory tree forms an essential part of our conclusions from the
 2022 project of 'reviewing and recommending improvements in SPC stock assessment
@@ -28,7 +28,7 @@ it is worth elaborating on why it is important to use a standard directory
 structure for SPC assessment workflows.
 
 The standard directory tree specifies rigid 1st and 2nd level directory names
-without specifying anything about the contents of 3rd level directories or
+without specifying anything about the contents of 3rd level subdirectories or
 filenames. In this way, it provides a structured and predictable container while
 embracing the diversity of the analyses conducted each year and of the people
 involved.
@@ -40,8 +40,8 @@ that was developed for YFT this year will to a large extent 'just work' when
 dropped into next year's ALB directory tree.
 
 Using a standard directory tree and relative paths will not guarantee
-reproducibility, but will greatly enhances our ability to conduct analyses that
-are partially or fully reproducible.
+reproducibility, but greatly enhances our ability to conduct analyses that are
+partially or fully reproducible.
 
 The directory tree allows us to use the same tools to organize, submit, and plot
 MFCL runs of different stocks, for example. It is an absolute requirement and
@@ -57,8 +57,8 @@ continue to develop on the GitHub site linked above, as needed. This thing is
 future-proof.
 
 The standard directory tree is designed to resemble and improve how past
-assessments were conducted. The [directory tree](dir_tree.md#old-assessments)
-page includes an overview that shows how previous stock assessors going to back
+assessments were conducted. The directory tree page includes an overview that
+shows how [previous stock assessors](dir_tree.md#old-assessments) going to back
 to 2014 have used a similar structure and would feel right at home with the new
 standard.
 
@@ -68,7 +68,7 @@ Many subdirectories of the tree can be GitHub repositories (yft-2023-shiny,
 yft-2023-stepwise, yft-2023-plots, etc.) while others are plain directories. It
 is up to the stock assessor to decide when it is helpful to conduct a specific
 analysis using a version-controlled repository. This will depend on the nature
-of each analysis, the technical expertise of the assessor, and collaborative
+of each analysis, the technical expertise of the assessor, and collaboration
 dynamics. Some GitHub analyses can be made public after the assessment has been
 delivered, effectively a modern technical annex to the published report.
 
@@ -87,14 +87,15 @@ The definition of a fully reproducible analysis is simple enough: every stock
 assessment team member can open the folder, run the analysis, and get the
 original result. It may take a few minutes to read through the README and
 install required packages, but the analysis (e.g. a doitall or an R script) can
-be run without changing anything in it.
+be run without changing anything in it. This is achieved by using only relative
+paths and Penguin paths.
 
 However, experience shows that most SPC assessment-related analyses are only
 partially reproducible, or in the worst case, practically impossible to rerun by
 another person at a later time.
 
-The [TAF](https://cran.r-project.org/package=TAF) package in R is designed to
-make analyses fully reproducible and is widely used in fisheries science.
+The [TAF](https://cran.r-project.org/package=TAF) package in R is a toolset to
+make analyses fully reproducible that is widely used in fisheries science.
 
 ## Quality Control
 
@@ -130,5 +131,5 @@ essentially no overhead in using standard names and the advantages are
 considerable.
 
 No one will benefit more from the standard directory tree than the stock
-assessor. Specifically the next stock assessor, who will inherit a well managed
+assessor. Specifically, the next stock assessor who will inherit a well managed
 project that is ready to build upon.
