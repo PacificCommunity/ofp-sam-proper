@@ -7,9 +7,9 @@ assessment and reuse and modify the analyses. This step is a particularly
 important challenge at SPC because of the high complexity of the analyses, staff
 turnover rate, and the number of years between assessments.
 
-An important quality indicator for SPC assessments is how well it has been
-'parked'. In other words, how easily it can be picked up by the next stock
-assessor.
+An important [quality](quality.md) indicator for SPC assessments is how well it
+has been 'parked'. In other words, how easily it can be picked up by the next
+stock assessor.
 
 In 2023, we organize the assessments in directory trees on Penguin that resemble
 how things have been done in the past. The subtle but important changes are
