@@ -32,6 +32,6 @@ help:
 
 - **README** file describes how to run the analysis
 
-The good news is that these techniques do not present an additional workload.
-More likely, a reproducible workflow can save time while developing an analysis,
-which is usually an iterative process.
+The good news is that none of these techniques should present an additional
+workload. More likely, a reproducible workflow can save time while developing an
+analysis, which is usually an iterative process.
