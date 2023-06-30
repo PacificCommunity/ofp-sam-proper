@@ -11,9 +11,9 @@ An important quality indicator for SPC assessments is how well it has been
 'parked'. In other words, how easily it can be picked up by the next stock
 assessor.
 
-In 2023, we will organize the assessments in directory trees on Penguin that
-resemble how things have been done in the past. The subtle but important changes
-are that:
+In 2023, we organize the assessments in directory trees on Penguin that resemble
+how things have been done in the past. The subtle but important changes are
+that:
 
 1. We use a [**standard directory tree**](dir_tree.md#recommendation) instead of
    the old way of arbitrary directory names. This makes it easier to find things
@@ -34,3 +34,6 @@ Recommendation #3 is optional and stock assessors can decide whether and when it
 is practical to organize specific analyses on GitHub. The
 [Manifesto](manifesto.md#github-and-penguin-do-they-get-along) elaborates on
 this point.
+
+Finally, we apply the [Arni Test](arni-test.md) to each part of the stock
+assessment-related analyses, identifying where quality improvements can be made.

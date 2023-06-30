@@ -9,23 +9,18 @@ the more critical when the analysis is to be conducted by another person.
 
 The Arni Test is simple:
 
-> Can your teammate run your analysis and get the same exact result?
+---
 
-To pass the test with flying colors, the teammate will not have to modify any
-scripts. To achieve this, some general techniques tend to help:
-
-The Arni Test is simple:
+> **Can your teammate run your analysis and get the same exact result?**
 
 ---
 
-> Can your teammate run your analysis and get the same exact result?
+To pass the test with flying colors, the teammate should not have to modify any
+scripts before running them. To achieve this, some general techniques tend to
+help:
 
----
-
-To pass the test with flying colors, the teammate will not have to modify any
-scripts. To achieve this, some general techniques tend to help:
-
-- Scripts use **relative paths**
+- Scripts access input files using **relative paths** or a shared location
+  (network or URLs), not absolute paths such as `c:/arnistuff/analysis`
 
 - Scripts are **short** and are run **sequentially**, each script conducting a
   part of the analysis (numbers and alphabetical order of filenames can indicate
@@ -35,4 +30,8 @@ scripts. To achieve this, some general techniques tend to help:
   'output' (scripts can either reside in the project root or in a subdirectory
   called 'R' or the like)
 
-- README file describes how to run the analysis
+- **README** file describes how to run the analysis
+
+The good news is that these techniques do not present an additional workload.
+More likely, a reproducible workflow can save time while developing an analysis,
+which is usually an iterative process.
