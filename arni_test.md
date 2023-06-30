@@ -20,7 +20,7 @@ scripts before running them. To achieve this, some general techniques tend to
 help:
 
 - Scripts access input files using **relative paths** or a shared location
-  (network or URLs), not absolute paths such as `c:/arnistuff/analysis`
+  (network or URLs), not absolute paths such as 'c:/arnistuff/analysis'
 
 - Scripts are **short** and are run **sequentially**, each script conducting a
   part of the analysis (numbers and alphabetical order of filenames can indicate
