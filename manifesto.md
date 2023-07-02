@@ -10,12 +10,12 @@ the goal of recommending specific improvements to support high quality and
 reproducibility of assessment-related analyses.
 
 Reproducibility was identified as a high priority. After an SPC assessment has
-been delivered, each analysis should be parked in a way that the next stock
-assessor can pick it up and run without problems. If this is not done well, it
-translates into considerable lost SPC resources and time, ultimately affecting
-the quality of the next assessment. In other words, instead of leaving a large
-debt for the next stock assessor, an assessment should be parked as a
-well-prepared springboard into the next round.
+been delivered, each analysis should be parked in a way that the next scientist
+can pick it up and run without problems. If this is not done well, it translates
+into considerable lost SPC resources and time, ultimately affecting the quality
+of the next assessment. In other words, instead of leaving a large debt for the
+next scientist, an assessment should be parked as a well-prepared springboard
+into the next round.
 
 The standard directory tree forms an essential part of our conclusions from the
 2022 project of 'reviewing and recommending improvements in SPC stock assessment
@@ -58,17 +58,17 @@ future-proof.
 
 The standard directory tree is designed to resemble and improve how past
 assessments were conducted. The directory tree page includes an overview that
-shows how [previous stock assessors](dir_tree.md#old-assessments) going to back
-to 2014 have used a similar structure and would feel right at home with the new
+shows how [previous scientists](dir_tree.md#old-assessments) going to back to
+2014 have used a similar structure and would feel right at home with the new
 standard.
 
 ## GitHub and Penguin, Do They Get Along?
 
 Many subdirectories of the tree can be GitHub repositories (yft-2023-shiny,
 yft-2023-stepwise, yft-2023-plots, etc.) while others are plain directories. It
-is up to the stock assessor to decide when it is helpful to conduct a specific
+is up to the scientist to decide when it is helpful to conduct a specific
 analysis using a version-controlled repository. This will depend on the nature
-of each analysis, the technical expertise of the assessor, and collaboration
+of each analysis, the technical expertise of the scientist, and collaboration
 dynamics. Some GitHub analyses can be made public after the assessment has been
 delivered, effectively a modern technical annex to the published report.
 
@@ -83,12 +83,12 @@ health benefits.
 
 ## Fully Reproducible Analyses
 
-The definition of a fully reproducible analysis is simple enough: every stock
-assessment team member can open the folder, run the analysis, and get the
-original result. It may take a few minutes to read through the README and
-install required packages, but the analysis (e.g. a doitall or an R script) can
-be run without changing anything in it. This is achieved by using only relative
-paths and Penguin paths.
+The definition of a [fully reproducible analysis](arni_test.md) is simple
+enough: every stock assessment team member can open the folder, run the
+analysis, and get the original result. It may take a few minutes to read through
+the README and install required packages, but the analysis (e.g. a doitall or an
+R script) can be run without changing anything in it. This is achieved by using
+only relative paths and Penguin paths.
 
 However, experience shows that most SPC assessment-related analyses are only
 partially reproducible, or in the worst case, practically impossible to rerun by
@@ -123,13 +123,14 @@ easier to:
 3. Allow teammates to find things
 4. Share analytical scripts using relative paths
 5. Apply tools such as Shiny to any assessment
-6. Park an assessment that the next assessor can run
+6. Park an assessment that the next scientist can run
 
 To summarize, without a standard directory tree, we can't even get started to
 improve the reproducibility and quality of SPC stock assessments. There is
 essentially no overhead in using standard names and the advantages are
 considerable.
 
-No one will benefit more from the standard directory tree than the stock
-assessor. Specifically, the next stock assessor who will inherit a well managed
-project that is ready to build upon.
+No one will benefit more from the standard directory tree than the scientists,
+who will inherit a well managed project that is ready to build upon. Most of the
+work we do involves picking up an earlier analysis that needs to be updated and
+rerun.

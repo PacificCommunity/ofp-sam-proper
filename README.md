@@ -7,9 +7,9 @@ assessment and reuse and modify the analyses. This step is a particularly
 important challenge at SPC because of the high complexity of the analyses, staff
 turnover rate, and the number of years between assessments.
 
-An important [quality](quality.md) indicator for SPC assessments is how well it
-has been 'parked'. In other words, how easily it can be picked up by the next
-stock assessor.
+An important [**quality**](quality.md) indicator for SPC assessments is how well
+it has been 'parked'. In other words, how easily it can be picked up by the next
+scientist.
 
 In 2023, we organize the assessments in directory trees on Penguin that resemble
 how things have been done in the past. The subtle but important changes are
@@ -27,13 +27,13 @@ that:
    helps track incremental development and improves reproducibility.
 
 For the 2023 assessments, we consider rules #1 and #2 compulsory. They introduce
-no additional overhead and bring important benefits for the stock assessors and
-SPC as a whole.
+no additional overhead and bring important benefits for the scientists and SPC
+as a whole.
 
-Recommendation #3 is optional and stock assessors can decide whether and when it
-is practical to organize specific analyses on GitHub. The
-[Manifesto](manifesto.md#github-and-penguin-do-they-get-along) elaborates on
+Recommendation #3 is optional and scientist can decide whether and when it is
+practical to organize specific analyses on GitHub. The
+[**Manifesto**](manifesto.md#github-and-penguin-do-they-get-along) elaborates on
 this point.
 
-Finally, we apply the [Arni Test](arni_test.md) to each part of the stock
+Finally, we apply the [**Arni Test**](arni_test.md) to each part of the stock
 assessment-related analyses, identifying where quality improvements can be made.
