@@ -22,6 +22,8 @@ scheme for subdirectories is recommended. The 'Example contents' column,
 however, will vary depending on focus topics for that assessment. Lowercase
 directory names are useful to prevent OS-specific errors in scripts.
 
+### Template
+
 Top dir              | Subdir        | Example contents
 -------------------- | ------------- | ---------------------------------------------------------------------------------------------
 (1) data_preparation | age_length    |
