@@ -54,7 +54,7 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 **0** Not available online\
 **1** Link on [FAME](https://fame.spc.int/resources/stockassessmentfiles) website\
 **2** Link points to GitHub repo outside of SPC\
-**3** Link points to SPC GitHub repo\
+**3** Link points to SPC GitHub repo
 
 ### C. Showcase Analysis: Openness
 
