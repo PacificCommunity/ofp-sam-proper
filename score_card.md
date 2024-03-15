@@ -68,11 +68,11 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 **0** Difficult for SPC stock assessment team to find things\
 **1** Readme explains where things are\
 **2** Main data and results in CSV format\
-**3** TAF format
+**3** [TAF format](https://github.com/PacificCommunity/ofp-sam-taf-demo)
 
 ### E. Showcase Analysis: Reproducibility
 
 **0** SPC stock assessment team cannot easily run scripts\
 **1** SPC stock assessment team can easily run scripts\
 **2** Scripts produce results that match the published report\
-**3** TAF format
+**3** [TAF format](https://github.com/PacificCommunity/ofp-sam-taf-demo)
