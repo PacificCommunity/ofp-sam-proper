@@ -32,10 +32,10 @@ as a whole.
 
 Recommendation #3 is optional and scientist can decide whether and when it is
 practical to organize specific analyses on GitHub. The
-[**Manifesto**](manifesto.md#github-and-penguin-do-they-get-along) elaborates on
+[**manifesto**](manifesto.md#github-and-penguin-do-they-get-along) elaborates on
 this point.
 
-Finally, we apply the [**Arni Test**](arni_test.md) to each part of the stock
+Finally, we apply the [**Arni test**](arni_test.md) to each part of the stock
 assessment-related analyses, identifying where quality improvements can be made.
 
 The [**score card**](score_card.md) helps to measure progress, where we can
