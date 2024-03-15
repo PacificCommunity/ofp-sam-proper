@@ -52,7 +52,7 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 ### B. Showcase Analysis: Location
 
 **0** Not available online\
-**1** Webpage link on https://fame.spc.int/resources/stockassessmentfiles\
+**1** Link on [FAME website](https://fame.spc.int/resources/stockassessmentfiles)\
 **2** Link points to GitHub repo outside of SPC\
 **3** Link points to SPC GitHub repo\
 
