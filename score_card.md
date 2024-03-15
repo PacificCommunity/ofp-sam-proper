@@ -18,7 +18,7 @@ and the showcase repos (public) are at
 - [ofp-sam-yft-2023-diagnostic](https://github.com/PacificCommunity/ofp-sam-yft-2023-diagnostic#readme)
 - [ofp-sam-yft-2023-grid](https://github.com/PacificCommunity/ofp-sam-yft-2023-grid#readme)
 
-The Penguin archive is structured following the [SPC standard directory](https://github.com/PacificCommunity/ofp-sam-proper/blob/main/dir_tree.md#recommendation) structure and some of the subdirectories are cloned repos (private), such as
+The Penguin archive is structured following the SPC [standard directory](https://github.com/PacificCommunity/ofp-sam-proper/blob/main/dir_tree.md#recommendation) structure and some of the subdirectories are cloned repos (private), such as
 
 ```
 ofp-sam-yft-2023-assessment
@@ -52,7 +52,7 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 ### B. Showcase Analysis: Location
 
 **0** Not available online\
-**1** Link on [FAME website](https://fame.spc.int/resources/stockassessmentfiles)\
+**1** Link on [FAME](https://fame.spc.int/resources/stockassessmentfiles) website\
 **2** Link points to GitHub repo outside of SPC\
 **3** Link points to SPC GitHub repo\
 
@@ -68,11 +68,11 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 **0** Difficult for SPC stock assessment team to find things\
 **1** Readme explains where things are\
 **2** Main data and results in CSV format\
-**3** [TAF format](https://github.com/PacificCommunity/ofp-sam-taf-demo)
+**3** [TAF](https://github.com/PacificCommunity/ofp-sam-taf-demo) format
 
 ### E. Showcase Analysis: Reproducibility
 
 **0** SPC stock assessment team cannot easily run scripts\
 **1** SPC stock assessment team can easily run scripts\
 **2** Scripts produce results that match the published report\
-**3** [TAF format](https://github.com/PacificCommunity/ofp-sam-taf-demo)
+**3** [TAF](https://github.com/PacificCommunity/ofp-sam-taf-demo) format
