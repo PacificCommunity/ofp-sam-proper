@@ -44,35 +44,35 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 
 ### A. Archive on the Penguin Network Drive
 
-**0** Nothing on Penguin\\
-**1** Partial remnants of data preparation, model runs, plots, and deliverables\\
-**2** Standard SPC directory structure\\
+**0** Nothing on Penguin\
+**1** Partial remnants of data preparation, model runs, plots, and deliverables\
+**2** Standard SPC directory structure\
 **3** Reproducible plot scripts for the majority of figures in the published report
 
 ### B. Showcase Analysis: Location
 
-**0** Not available online\\
-**1** Webpage link on https://fame.spc.int/resources/stockassessmentfiles\\
-**2** Link points to GitHub repo outside of SPC\\
-**3** Link points to SPC GitHub repo\\
+**0** Not available online\
+**1** Webpage link on https://fame.spc.int/resources/stockassessmentfiles\
+**2** Link points to GitHub repo outside of SPC\
+**3** Link points to SPC GitHub repo\
 
 ### C. Showcase Analysis: Openness
 
-**0** SPC stock assessment team cannot see it\\
-**1** SPC stock assessment team can see it\\
-**2** WCPFC scientific committee can see it\\
+**0** SPC stock assessment team cannot see it\
+**1** SPC stock assessment team can see it\
+**2** WCPFC scientific committee can see it\
 **3** The world can see it
 
 ### D. Showcase Analysis: Content
 
-**0** Difficult for SPC stock assessment team to find things\\
-**1** Readme explains where things are\\
-**2** Main data and results in CSV format\\
+**0** Difficult for SPC stock assessment team to find things\
+**1** Readme explains where things are\
+**2** Main data and results in CSV format\
 **3** TAF format
 
 ### E. Showcase Analysis: Reproducibility
 
-**0** SPC stock assessment team cannot easily run scripts\\
-**1** SPC stock assessment team can easily run scripts\\
-**2** Scripts produce results that match the published report\\
+**0** SPC stock assessment team cannot easily run scripts\
+**1** SPC stock assessment team can easily run scripts\
+**2** Scripts produce results that match the published report\
 **3** TAF format
