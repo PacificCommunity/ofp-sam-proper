@@ -42,7 +42,7 @@ ofp-sam-bet-yft-2023-size-comps
 
 To measure the SPC progress towards organizing the stock assessment work and providing an open and reproducible showcase of our analyses, the following grading scheme can be used, with a maximum score of 15 for a given stock assessment.
 
-### A. Archive on the Penguin Network Drive
+### A. Penguin Network Drive
 
 **0** Nothing on Penguin\
 **1** Partial remnants of data preparation, model runs, plots, and deliverables\
