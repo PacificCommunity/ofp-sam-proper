@@ -46,7 +46,7 @@ To measure the SPC progress towards organizing the stock assessment work and pro
 
 **0** Nothing on Penguin\
 **1** Partial remnants of data preparation, model runs, plots, and deliverables\
-**2** Standard SPC directory structure\
+**2** Standard SPC [directory structure](https://github.com/PacificCommunity/ofp-sam-proper/blob/main/dir_tree.md#recommendation)\
 **3** Reproducible plot scripts for the majority of figures in the published report
 
 ### B. Showcase Analysis: Location
