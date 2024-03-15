@@ -37,3 +37,6 @@ this point.
 
 Finally, we apply the [**Arni Test**](arni_test.md) to each part of the stock
 assessment-related analyses, identifying where quality improvements can be made.
+
+The [**score card**](score_card.md) helps to measure progress, where we can
+expect incremental improvements each year.
