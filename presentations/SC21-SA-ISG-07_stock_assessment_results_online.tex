@@ -1,0 +1,98 @@
+\documentclass[aspectratio=169,fleqn]{beamer}
+\usepackage{spc}
+\usepackage{graphicx}
+\begin{document}
+
+\setbeamertemplate{title page}{
+  \usebackgroundtemplate{}
+  \begin{picture}(0,0)
+    \put(-27.97,-147.11){\includegraphics[height=\paperheight]{front_banner}}
+    \put(160,73){\includegraphics[width=24mm]{wcpfc}}
+    \put(82,2){
+      \begin{minipage}{\textwidth}
+        \centering\darkgreen\Large\bf\inserttitle
+      \end{minipage}
+    }
+    \put(82,-68){
+      \begin{minipage}{\textwidth}
+        \centering\darkgray\fns\bf\insertauthor
+      \end{minipage}
+    }
+    \put(82,\datepos){
+      \begin{minipage}{\textwidth}
+        \centering\darkblue\tiny\insertdate
+      \end{minipage}
+    }
+  \end{picture}
+}
+
+% ______________________________________________________________________________
+
+\begin{frame}
+  \title{Stock Assessment Results Online\\[1.2ex]
+    \it\fns Open and Reproducible Science}
+  \author{Arni Magnusson}
+  \date{SCIENTIFIC COMMITTEE\\[0.4ex]
+    TWENTY-FIRST REGULAR SESSION\\[0.4ex]
+    Nuku'alofa, Tonga\\[0.4ex]
+    13--21 August 2025}
+  \titlepage
+  \begin{picture}(0,0)
+    \put(8,-136){\white\tiny\bf WCPFC-SC21-2025/SA-ISG-07}
+  \end{picture}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{The old paradigm\\[1ex]\small\darkgreen\it (before 2023)}\small
+  Grid results in a large zip file\\[2.5ex]
+  Cannot access diagnostic model without downloading the entire grid\\[2.5ex]
+  {\green Limited usefulness} for SC members and the scientific
+  community:\\[1ex]
+  \begin{itemize}
+    \item Data and results are in a model-specific format\\[1.5ex]
+    \begin{quotation}\tt\fns
+      00.par, 11.par\\[0.4ex]
+      catch.rep, plot-11.par.rep\\[0.4ex]
+      test\_plot\_output\\[0.4ex]
+      length.fit, weight.fit\\[1ex]
+    \end{quotation}
+    \item Difficult for SC members to view the data and results,\\[0.3ex]
+    unless they are experts in the use of the FLR4MFCL package\\[3ex]
+  \end{itemize}
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{The new paradigm\\[1ex]\small\darkgreen\it (since 2023)}\small
+  Two dedicated online repositories for each assessment: diagnostic and
+  grid/ensemble\\[3ex]
+  The diagnostic model repository provides all data and results in CSV
+  format\\[3ex]
+  Easy for SC members to:\\
+  \begin{itemize}
+    \item Browse CSV tables of data and results directly online\\[1ex]
+    \item Download CSV tables and open in Excel or R for further analysis\\[1ex]
+    \item Download everything in a zip file\\[4ex]
+  \end{itemize}
+  In addition to CSV tables, data and results are also provided in a
+  model-specific format\\[5ex]
+\end{frame}
+
+% ______________________________________________________________________________
+
+\begin{frame}{Examples}\small\blue
+  \textorange{\bf 2022 Skipjack}\\[0.5ex]
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-skj-2022-diagnostic}\\[3ex]
+  \textorange{\bf 2023 Yellowfin}\\[0.5ex]
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-yft-2023-diagnostic}\\
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-yft-2023-grid}\\[3ex]
+  \textorange{\bf 2023 Bigeye}\\[0.5ex]
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-bet-2023-diagnostic}\\
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-bet-2023-grid}\\[3ex]
+  \textorange{\bf 2024 Albacore}\\[0.5ex]
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-alb-2024-diagnostic}\\
+  \quad\url{https://github.com/PacificCommunity/ofp-sam-alb-2024-ensemble}\\
+\end{frame}
+
+\end{document}
